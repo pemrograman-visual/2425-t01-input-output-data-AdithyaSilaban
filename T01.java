@@ -8,18 +8,24 @@ public class T01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String iSBN, judul, penulis, tT, penerbit, fBE, hP, mM, stok, rating;
+        String iSBN, judul, penulis;
+        int tT;
+        String penerbit, fBE;
+        double hP, mM;
+        int stok;
+        double rating;
 
         iSBN = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
-        tT = input.nextLine();
+        tT = Integer.parseInt(input.nextLine());
         penerbit = input.nextLine();
         fBE = input.nextLine();
-        hP = input.nextLine();
-        mM = input.nextLine();
-        stok = input.nextLine();
-        rating = input.nextLine();
+        hP = Double.parseDouble(input.nextLine());
+        mM = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tT + "|" + penerbit + "|" + fBE + "|" + hP + "|" + mM + "|" + stok + "|" + rating);
     }
 }
+
