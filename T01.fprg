@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="adith"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 10:56:34 AM"/>
+        <attribute name="created" value="YWRpdGg7TE9RTEFQVE9QOzIwMjQtMDktMDY7MTA6MDg6MTYgQU07MjQ5MA=="/>
+        <attribute name="edited" value="YWRpdGg7TE9RTEFQVE9QOzIwMjQtMDktMDY7MTA6NTY6MzQgQU07MTsyNjAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN, Judul, Penulis, TT, Penerbit, FBE, HP, MM, Stok, Rating" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="Judul"/>
+            <input variable="Penulis"/>
+            <input variable="TT"/>
+            <input variable="Penerbit"/>
+            <input variable="FBE"/>
+            <input variable="HP"/>
+            <input variable="MM"/>
+            <input variable="Stok"/>
+            <input variable="Rating"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;Judul&amp;&quot;|&quot;&amp;Penulis&amp;&quot;|&quot;&amp;TT&amp;&quot;|&quot;&amp;Penerbit&amp;&quot;|&quot;&amp;FBE&amp;&quot;|&quot;&amp;HP&amp;&quot;|&quot;&amp;MM&amp;&quot;|&quot;&amp;Stok&amp;&quot;|&quot;&amp;Rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
